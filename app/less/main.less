@@ -1,0 +1,141 @@
+/* Setup Project Variables */
+
+@white:	#ffffff;
+@black:	#000000;
+@text:	#333333;
+
+
+/* Import all less files here */
+
+@import "_custom-mixins.less";
+@import "../../vendor/css/bootstrap/_mixins.less";
+@import "_base.less";
+
+h2, h3, h4 {
+	margin: 30px auto;
+	text-transform: uppercase;
+	font-weight: 200;
+}
+
+.navbar-brand {
+	padding-left: 15px;
+}
+
+.jumbotron .btn {
+	background: none;
+	border-color: #fff;
+	text-transform: uppercase;
+	font-weight: 100;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+.jumbotron .btn:active {
+	background: #fff;
+	color: #000;
+	border-color: transparent;
+	box-shadow: none;
+}
+
+#main-menu a {
+	color: #fff;
+}
+
+#main-menu.navbar-absolute-top {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+
+#main-menu.navbar-fixed-top {
+	background: #fff;
+	background: rgba(0, 0, 0, 0.6);
+	box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+}
+
+#main-menu.navbar-fixed-top a {
+	color: #fff;
+}
+
+.jumbotron#masthead {
+	padding-top: 102px;
+	background: #bada55 url('/img/waterfalls.gif') no-repeat center center fixed;
+	background-size: cover;
+	color: #ffffff;
+	margin-bottom: 0px;
+}
+
+.jumbotron#masthead h1 {
+	font-family: 'Fruktur', cursive;
+	transform: rotate(-6deg);
+	margin-bottom: 50px;
+}
+
+.jumbotron#masthead-narrative {
+	background-color: #10aded;
+	color: #fff;
+}
+
+.jumbotron#masthead-narrative h2 {
+	font-size: 21px; // ceil((@font-size-base * 1.5));
+	text-transform: none;
+	margin: 0px auto;
+}
+
+.img-logos img {
+	display: block;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+big.totalizer {
+	display: block;
+	font-size: 350%;
+	margin: 30px auto;
+}
+
+.bg-1 h3,
+.bg-2 h3,
+.bg-3 h3 {
+	font-family: 'Fruktur', cursive;
+	transform: rotate(-1deg);
+}
+
+.bg-1 {
+	background: #10aded;
+	color: #fff;
+}
+
+.bg-2 {
+	background: #5f3960;
+	color: #fff;
+}
+
+.bg-3 {
+	background: #af5071;
+	color: #fff;
+}
+
+.bg-3 a {
+	color: skyblue;
+	text-decoration: underline;
+}
+
+.spacer {
+	height: 30px;
+}
+
+footer {
+	margin: 30px auto 0px auto;
+}
+
+footer a {
+	margin: 0px 20px;
+}
+
+.pale {
+	color: #ccc;
+}
